@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Для Лины — признание</title>
+<style>
+  :root {
+    --pink: #ff66cc;
+    --light-pink: #ff9ad9;
+    --bg: #000000;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: radial-gradient(circle at top left, #0b0013, #000);
+    color: var(--pink);
+    font-family: "Georgia", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 0;
+    color: var(--light-pink);
+    text-shadow: 0 0 8px rgba(255, 102, 204, 0.4);
+  }
+
+  p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    line-height: 1.6;
+    white-space: pre-line;
+  }
+
+  .heart {
+    font-size: 2em;
+    margin-top: 10px;
+    animation: beat 1.6s infinite;
+  }
+
+  @keyframes beat {
+    0% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.9; }
+  }
+
+  .glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 30% 30%, rgba(255,102,204,0.08), transparent 40%),
+                radial-gradient(circle at 70% 80%, rgba(255,153,255,0.05), transparent 40%);
+    mix-blend-mode: screen;
+    animation: moveGlow 15s linear infinite;
+  }
+
+  @keyframes moveGlow {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
+  footer {
+    font-size: 0.8em;
+    color: #ffb6e5;
+    position: absolute;
+    bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="glow"></div>
+  <h1>Для самой прекрасной — Лины 💖</h1>
+  <p>
+Лина…
+Или, как я люблю называть тебя — любовью всей своей жизни.
+
+В этом мире, полном спешки и дел,
+ты — как дыхание весны в холодный вечер.
+
+Ты любишь лилии — нежные, как утренний свет,
+и каждая из них напоминает мне о тебе.
+
+Спасибо тебе за то, что просто есть.
+  </p>
+  <div class="heart">💖</div>
+
+  <footer>От души, с теплом. Всегда рядом 💫</footer>
+</body>
+</html>
