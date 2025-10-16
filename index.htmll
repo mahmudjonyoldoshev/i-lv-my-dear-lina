@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Для Лины</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #ffb6c1;
+      font-family: "Georgia", "Times New Roman", serif;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 1.6;
+      letter-spacing: 0.5px;
+      max-width: 700px;
+      margin: 60px auto;
+      padding: 0 20px;
+      text-align: left;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 26px;
+      color: #ffcce0;
+      margin-bottom: 40px;
+    }
+
+    footer {
+      text-align: right;
+      margin-top: 40px;
+      color: #ffcce0;
+      font-style: italic;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Для моей Лины 🌸</h1>
+
+  <p>В тишине, где даже время будто делает вдох,<br>
+  я думаю о тебе, Лина.</p>
+
+  <p>Ты словно лилия — красивая, редкая и сильная.<br>
+  Каждый день ты спешишь, решаешь, творишь,<br>
+  и даже не замечаешь, как ярко светишь.</p>
+
+  <p>Я не хочу мешать тебе — просто быть рядом.<br>
+  Пусть этот момент будет тихим, как утро,<br>
+  но наполненным чувствами, которые не требуют слов.</p>
+
+  <p>💮 Для тебя, Лина.<br>
+  Пусть весь мир немного подождёт.</p>
+
+  <footer>От Марка</footer>
+</body>
+</html>
